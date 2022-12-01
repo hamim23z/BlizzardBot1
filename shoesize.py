@@ -248,4 +248,4 @@ async def mens16(ctx):
     await ctx.send('Unfortunately, due to the limited number of people with shoe sizes 16 and above, I have decided not to make any conversions for this size or any size above 15.')
 
 
-bot.run('MTAyODg3MjU4NDI5NDU4MDI0NQ.GkYlPA.9smFe6HPPIbhj3KcJYM68PsuqiYtcjiWnP9yUE')
+bot.run('TOKEN GOES HERE')
