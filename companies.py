@@ -23,4 +23,4 @@ async def proxies(ctx):
     proxies.set_footer(text='@BlizzardNotify | Powered by Blizzard Notify', icon_url='https://imgur.com/zi8SCan.png')
     await ctx.send(embed=proxies)
 
-bot.run('MTAyODg3MjU4NDI5NDU4MDI0NQ.GkYlPA.9smFe6HPPIbhj3KcJYM68PsuqiYtcjiWnP9yUE')
+bot.run('TOKEN GOES HERE')
