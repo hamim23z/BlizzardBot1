@@ -315,4 +315,4 @@ async def snk(ctx):
     await ctx.send(embed=snk)
 
 
-bot.run('MTAyODg3MjU4NDI5NDU4MDI0NQ.GkYlPA.9smFe6HPPIbhj3KcJYM68PsuqiYtcjiWnP9yUE')
+bot.run('TOKEN GOES HERE')
