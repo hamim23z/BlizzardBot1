@@ -8,7 +8,6 @@ module. There are a number of utility commands being showcased here.'''
 
 intents = discord.Intents.default()
 intents.members = True
-intents.message_content = True
 
 bot = commands.Bot(command_prefix='?', description=description, intents=intents)
 
@@ -72,4 +71,4 @@ async def yeezysupply(ctx):
     yeezysupply.set_footer(text='@BlizzardNotify | Powered by Blizzard Notify', icon_url='https://imgur.com/zi8SCan.png')
     await ctx.send(embed=yeezysupply)
 
-bot.run('TOKEN GOES HERE')
+bot.run('TOKEN HERE')
