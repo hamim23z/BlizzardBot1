@@ -1,14 +1,12 @@
 from attr import field
 import discord
 from discord.ext import commands
-import random
 
 description = '''An example bot to showcase the discord.ext.commands extension
 module. There are a number of utility commands being showcased here.'''
 
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 intents.members = True
-intents.message_content = True
 
 bot = commands.Bot(command_prefix='?', description=description, intents=intents)
 
@@ -32,8 +30,7 @@ async def helpme(ctx):
 async def info(ctx):
     await ctx.send('My name is Blizzard Bot. My goal is to ensure that all members of the Blizzard Notify community are able to navigate and find answers to their problems much quicker. I currently have a variety of features such as shoe size converter, website checker, and tips on certain websites. I am always in development with new features always being added.')
 
-
-
+    
 @bot.command()
 async def footlocker(ctx):
 
