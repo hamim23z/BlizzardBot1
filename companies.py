@@ -42,4 +42,11 @@ async def shopifybot(ctx):
     shopifybot.set_footer(text='@BlizzardNotify | Powered by Blizzard Notify', icon_url='https://imgur.com/zi8SCan.png')
     await ctx.send(embed=shopifybot)
 
+@bot.command()
+async def footsitesbot(ctx):
+
+    footsitesbot = discord.Embed(title='Top Tier Footsite Bots', description='Botting is taking over the sneaker game and there are a handful of bots that stand out from others in terms of overall success. There are a few footsites and they release most pairs. \n \n1. NSB AIO: https://www.nikeshoebot.com/ \n2. Wrath AIO: https://wrathbots.co/account \n3. Kodai AIO: https://kodai.io/ \n4. Prism AIO: https://prismaio.com/ \n5. Ganesh AIO: https://ganeshbot.com/  ', color=0x070d53)
+    footsitesbot.set_footer(text='@BlizzardNotify | Powered by Blizzard Notify', icon_url='https://imgur.com/zi8SCan.png')
+    await ctx.send(embed=footsitesbot)
+
 bot.run('TOKEN GOES HERE')
