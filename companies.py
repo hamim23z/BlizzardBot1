@@ -27,5 +27,19 @@ async def vcc(ctx):
     vcc = discord.Embed(title='Reliable Virtual Credit Card Providers', description='Virtual Credit Cards are used for botting in order to create multiple accounts and multiple tasks. They do work and are very effective. \n \n1. Privacy Card: https://privacy.com/ \n2. Revolut Card: https://www.revolut.com/en-US/cards/ \n3. Capital One: https://www.capitalone.com/digital/eno/virtual-card-numbers/ \n4. Slash Card: https://www.joinslash.com/ \n5. Stripe Card: https://stripe.com/issuing  ', color=0x070d53)
     vcc.set_footer(text='@BlizzardNotify | Powered by Blizzard Notify', icon_url='https://imgur.com/zi8SCan.png')
     await ctx.send(embed=vcc)
+    
+@bot.command()
+async def nikeacc(ctx):
+
+    nikeacc = discord.Embed(title='Nike Account Providers', description='Nike Accounts are used and bought by botters when they want to purchase something from Nike or Snkrs. These accounts are created and verified to make them seem entirely human. \n \n1. Swish Accounts: https://swishaccounts.com/ \n2. Lucky AIO: https://luckyaio.com/account-generator \n3. Boro Accounts: https://accounts.boroinc.com/ \n4. Swift Accounts: https://accountsbyswift.com/ \n5. Pookyy AIO: https://pookyyaccount.com/nike-accounts  ', color=0x070d53)
+    nikeacc.set_footer(text='@BlizzardNotify | Powered by Blizzard Notify', icon_url='https://imgur.com/zi8SCan.png')
+    await ctx.send(embed=nikeacc)
+
+@bot.command()
+async def shopifybot(ctx):
+
+    shopifybot = discord.Embed(title='Top Tier Shopify Bots', description='Botting is taking over the sneaker game and there are a handful of bots that stand out from others in terms of overall success. Shopify sites release most items and Shopify bots are amongst the best. \n \n1. Valor AIO: https://valoraio.com/ \n2. Wrath: https://wrathbots.co/account \n3. Kodai AIO: https://kodai.io/ \n4. Prism AIO: https://prismaio.com/ \n5. NSB: https://www.nikeshoebot.com/  ', color=0x070d53)
+    shopifybot.set_footer(text='@BlizzardNotify | Powered by Blizzard Notify', icon_url='https://imgur.com/zi8SCan.png')
+    await ctx.send(embed=shopifybot)
 
 bot.run('TOKEN GOES HERE')
